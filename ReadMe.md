@@ -1,7 +1,6 @@
 ## Description
 
-command-line program to get files from EDGAR and do some textual analysis
-currently, the main() function is in app.py
+command-line program to get files from EDGAR and select paragraphs including specified keywords
 ```bash
 python get_edgar/app.py purpose tag start_year end_year form_types [options]
 ```
