@@ -27,5 +27,5 @@ python get_edgar/app.py purpose tag start_year end_year form_types [options]
 |--itemset|The list containing all the key words to select specific **8-K** filings<br>Applies to purpose **extract_items** & **text_info**<br>If specified, overwrite the `--itemfile` option<br>Each key word should be wrapped with ''<br>Format: 'Key word 1' 'Key word 2'<br>The key words are case sensitive|
 |--filterfile|The txt file containning the key words to find specific information for all links (files) in a SEC filing<br>Only applies to purpose **text_info**|
 |--excludesfile|The txt file containning the key words to exclude specific information for all links (files) in a SEC filing <br>Only applies to purpose **text_info**|
-|save_txt|Whether to save the filtered paragraphs<br>Must be one of the following options:<br>- **_True_**: To save text information for all the SEC Filings and with filtered paragraphs<br>- **_False_**: Do not save any text information
+|--save_txt|Whether to save the filtered paragraphs<br>Must be one of the following options:<br>- **_True_**: To save text information for all the SEC Filings and with filtered paragraphs<br>- **_False_**: Do not save any text information
 |--split|Number to split each input csv file<br>Applies to purpose **file_info** & **text_info**<br>Default value is 0|
