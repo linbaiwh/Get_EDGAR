@@ -2,7 +2,7 @@
 
 command-line program to get files from EDGAR and select paragraphs including specified keywords
 ```bash
-python get_edgar/app.py purpose tag start_year end_year form_types [options]
+python app.py purpose tag start_year end_year form_types [options]
 ```
 ## Positional Arguments
 
